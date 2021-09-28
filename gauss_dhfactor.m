@@ -195,24 +195,24 @@ L = RobotGauss.links;
 %   <xacro:property name="joint2_upper_limit" value="${PI/6}" />
   L(2).qlim = [-pi/2 pi/6];
 
-% <limit effort="1" velocity="1.0" lower="${joint3_lower_limit}" upper="${joint3_upper_limit}" />
-%  <xacro:property name="joint3_lower_limit" value="-0.29670579" />
-%     <xacro:property name="joint3_upper_limit" value="${PI/2}" />
+%   <limit effort="1" velocity="1.0" lower="${joint3_lower_limit}" upper="${joint3_upper_limit}" />
+%   <xacro:property name="joint3_lower_limit" value="-0.29670579" />
+%   <xacro:property name="joint3_upper_limit" value="${PI/2}" />
   L(3).qlim = [-0.29670579 pi/2];
 
-% <limit effort="1" velocity="1.0" lower="${joint4_lower_limit}" upper="${joint4_upper_limit}" />
-%     <xacro:property name="joint4_lower_limit" value="${-PI*2/3}" />
-%     <xacro:property name="joint4_upper_limit" value="${PI*2/3}" />
+%   <limit effort="1" velocity="1.0" lower="${joint4_lower_limit}" upper="${joint4_upper_limit}" />
+%   <xacro:property name="joint4_lower_limit" value="${-PI*2/3}" />
+%   <xacro:property name="joint4_upper_limit" value="${PI*2/3}" />
   L(4).qlim = [-pi*(2/3) pi*(2/3)];
 
-% <limit effort="1" velocity="1.0" lower="${joint5_lower_limit}" upper="${joint5_upper_limit}" />
-%     <xacro:property name="joint5_lower_limit" value="-1.74532922" />
-%     <xacro:property name="joint5_upper_limit" value="1.74532922" />
+%   <limit effort="1" velocity="1.0" lower="${joint5_lower_limit}" upper="${joint5_upper_limit}" />
+%   <xacro:property name="joint5_lower_limit" value="-1.74532922" />
+%   <xacro:property name="joint5_upper_limit" value="1.74532922" />
   L(5).qlim = [-1.74532922 1.74532922];
 
-%         <limit effort="1" velocity="1.0" lower="${joint6_lower_limit}" upper="${joint6_upper_limit}" />
-%     <xacro:property name="joint6_lower_limit" value="-2.53072737" />
-%     <xacro:property name="joint6_upper_limit" value="2.53072737" />
+%   <limit effort="1" velocity="1.0" lower="${joint6_lower_limit}" upper="${joint6_upper_limit}" />
+%   <xacro:property name="joint6_lower_limit" value="-2.53072737" />
+%   <xacro:property name="joint6_upper_limit" value="2.53072737" />
   L(6).qlim = [-2.53072737 2.53072737];
 
 
