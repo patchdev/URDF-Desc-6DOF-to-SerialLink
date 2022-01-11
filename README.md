@@ -1,11 +1,9 @@
 # URDF-Desc-6DOF-to-SerialLink
 Interpretation  of an URDF file of a 6 degrees of freedom robot manipulator into SerialLink using DHFactor function
 
-## Information
-Proyect created 2021 Q1
-
+**Date** created 2021 Q1
+**Author** Diego P
 Robotics Toolbox 10
-
 Matlab / Octave
 
 
